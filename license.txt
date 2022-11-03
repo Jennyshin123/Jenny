@@ -1,11 +1,11 @@
 Model Information:
-* title:	Blanket
-* source:	https://sketchfab.com/3d-models/blanket-fe60fc4c73bc4645b3120ab20863f817
-* author:	Sbailey0917 (https://sketchfab.com/Sbailey0917)
+* title:	Single Bed Blanket
+* source:	https://sketchfab.com/3d-models/single-bed-blanket-14084f216e834241a7f152cdfa4e5d59
+* author:	whewnewacc (https://sketchfab.com/whewnewacc)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Blanket" (https://sketchfab.com/3d-models/blanket-fe60fc4c73bc4645b3120ab20863f817) by Sbailey0917 (https://sketchfab.com/Sbailey0917) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Single Bed Blanket" (https://sketchfab.com/3d-models/single-bed-blanket-14084f216e834241a7f152cdfa4e5d59) by whewnewacc (https://sketchfab.com/whewnewacc) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
