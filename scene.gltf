@@ -3,132 +3,182 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 19372,
+      "count": 6212,
       "max": [
-        0.9067162871360779,
-        1.1410208940505981,
-        0.5219003558158875
+        273.77783203125,
+        230.1002655029297,
+        244.79193115234375
       ],
       "min": [
-        -0.8916879892349243,
-        -1.1407698392868042,
-        -0.5200580358505249
+        -595.255615234375,
+        -629.5750732421875,
+        1.4726669788360596
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 232464,
+      "byteOffset": 74544,
       "componentType": 5126,
-      "count": 19372,
+      "count": 6212,
       "max": [
-        0.9999995231628418,
-        0.9996724128723145,
-        0.9999984502792358
+        0.9999840259552002,
+        0.9999412298202515,
+        0.9999395608901978
       ],
       "min": [
-        -0.9999951124191284,
-        -0.9999685287475586,
-        -0.9999949932098389
+        -0.9997109770774841,
+        -0.999165415763855,
+        -1.0
       ],
       "type": "VEC3"
     },
     {
-      "bufferView": 1,
+      "bufferView": 3,
       "componentType": 5126,
-      "count": 19372,
+      "count": 6212,
       "max": [
-        0.9999315738677979,
-        0.9846683144569397
+        0.9983174204826355,
+        0.9990713596343994,
+        0.9973303079605103,
+        -1.0
       ],
       "min": [
-        6.840204878244549e-05,
-        0.04776003956794739
+        -0.9477992057800293,
+        -0.9981197118759155,
+        -0.9994661808013916,
+        -1.0
       ],
-      "type": "VEC2"
+      "type": "VEC4"
     },
     {
       "bufferView": 1,
-      "byteOffset": 154976,
       "componentType": 5126,
-      "count": 19372,
+      "count": 6212,
       "max": [
-        0.9999315738677979,
-        0.9846683144569397
+        0.9980400204658508,
+        0.9980400204658508
       ],
       "min": [
-        6.840204878244549e-05,
-        0.04776003956794739
+        0.21277999877929688,
+        0.0019499999471008778
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 111936,
+      "count": 35826,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "3DMish (https://sketchfab.com/3dmish)",
+      "author": "Stefan E (https://sketchfab.com/stefevr)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/pillow-28cf19822d954753a9173ebc09f77cf3",
+      "source": "https://sketchfab.com/3d-models/pillow-287c3f62c2b04a3585e2efe26678b8a6",
       "title": "Pillow"
     },
-    "generator": "Sketchfab-12.68.0",
+    "generator": "Sketchfab-12.65.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 447744,
+      "byteLength": 143304,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 309952,
-      "byteOffset": 447744,
+      "byteLength": 49696,
+      "byteOffset": 143304,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 464928,
-      "byteOffset": 757696,
+      "byteLength": 149088,
+      "byteOffset": 193000,
       "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 99392,
+      "byteOffset": 342088,
+      "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 1222624,
+      "byteLength": 441480,
       "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/defaultMat_diffuse.jpeg"
+    },
+    {
+      "uri": "textures/defaultMat_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/defaultMat_normal.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "Pillow",
-      "pbrMetallicRoughness": {
-        "metallicFactor": 0.0,
-        "roughnessFactor": 0.6114710365853658
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.72,
+            0.72,
+            0.72
+          ],
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "name": "defaultMat",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.29
       }
     }
   ],
   "meshes": [
     {
-      "name": "Cube_Pillow_0",
+      "name": "Object_0",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
-            "TEXCOORD_0": 2,
-            "TEXCOORD_1": 3
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
           },
           "indices": 4,
           "material": 0,
@@ -166,59 +216,19 @@
       "children": [
         2
       ],
-      "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        -1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "name": "9e1140c1000d4f3d8c01ce9688c27f98.fbx"
-    },
-    {
-      "children": [
-        3
-      ],
-      "name": "RootNode"
-    },
-    {
-      "children": [
-        4
-      ],
-      "matrix": [
-        100.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        -4.371139006309477e-06,
-        -99.9999999999999,
-        0.0,
-        0.0,
-        99.9999999999999,
-        -4.371139006309477e-06,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "name": "Cube"
+      "name": "Pillow One.OBJ.cleaner.gles"
     },
     {
       "mesh": 0,
-      "name": "Cube_Pillow_0"
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
     }
   ],
   "scene": 0,
@@ -228,6 +238,20 @@
       "nodes": [
         0
       ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
     }
   ]
 }
