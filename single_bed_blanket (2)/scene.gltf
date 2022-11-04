@@ -1,0 +1,261 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 463,
+      "max": [
+        579.3065185546875,
+        95.31901550292969,
+        128.1532440185547
+      ],
+      "min": [
+        547.7271728515625,
+        80.70439910888672,
+        79.97984313964844
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5556,
+      "componentType": 5126,
+      "count": 463,
+      "max": [
+        0.9971136450767517,
+        0.9994558691978455,
+        0.9968563318252563
+      ],
+      "min": [
+        -0.999363899230957,
+        -0.9975637793540955,
+        -0.9934397339820862
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 463,
+      "max": [
+        0.9230599403381348,
+        0.8331234455108643
+      ],
+      "min": [
+        0.13073262572288513,
+        0.15196257829666138
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3704,
+      "componentType": 5126,
+      "count": 463,
+      "max": [
+        0.9230599403381348,
+        0.8331234455108643
+      ],
+      "min": [
+        0.13073262572288513,
+        0.15196257829666138
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2355,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "whewnewacc (https://sketchfab.com/whewnewacc)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/single-bed-blanket-14084f216e834241a7f152cdfa4e5d59",
+      "title": "Single Bed Blanket"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 9420,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7408,
+      "byteOffset": 9420,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11112,
+      "byteOffset": 16828,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 27940,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Blanket1_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Blanket1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.494573982314618
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "polySurface59_Blanket1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "c12d02a835634fd983ddbee5636f3fdd.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Fin"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        2.9785811019801515e-17,
+        0.0,
+        0.13414336740970612,
+        0.0,
+        0.0,
+        0.06530790030956268,
+        0.0,
+        0.0,
+        -0.06177637726068497,
+        0.0,
+        1.3717111282548481e-17,
+        0.0,
+        0.16333602368831635,
+        -4.62565803527832,
+        -81.897705078125,
+        1.0
+      ],
+      "name": "polySurface59"
+    },
+    {
+      "mesh": 0,
+      "name": "polySurface59_Blanket1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
