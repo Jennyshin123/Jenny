@@ -3,156 +3,140 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 333,
+      "count": 463,
       "max": [
-        10.987239837646484,
-        4.955103874206543,
-        2.981966972351074
+        579.3065185546875,
+        95.31901550292969,
+        128.1532440185547
       ],
       "min": [
-        -8.8084716796875,
-        -5.532837867736816,
-        -1.5497889518737793
+        547.7271728515625,
+        80.70439910888672,
+        79.97984313964844
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 3996,
+      "byteOffset": 5556,
       "componentType": 5126,
-      "count": 333,
+      "count": 463,
       "max": [
-        0.9970145225524902,
-        0.999783992767334,
-        0.9997956156730652
+        0.9971136450767517,
+        0.9994558691978455,
+        0.9968563318252563
       ],
       "min": [
-        -0.999779999256134,
-        -0.9999862909317017,
-        -0.9998837113380432
+        -0.999363899230957,
+        -0.9975637793540955,
+        -0.9934397339820862
       ],
       "type": "VEC3"
     },
     {
-      "bufferView": 3,
+      "bufferView": 1,
       "componentType": 5126,
-      "count": 333,
+      "count": 463,
       "max": [
-        0.984399676322937,
-        0.9836199879646301,
-        0.998989999294281,
-        1.0
+        0.9230599403381348,
+        0.8331234455108643
       ],
       "min": [
-        -0.9809471368789673,
-        -0.9999262690544128,
-        -0.9994951486587524,
-        1.0
+        0.13073262572288513,
+        0.15196257829666138
       ],
-      "type": "VEC4"
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
+      "byteOffset": 3704,
       "componentType": 5126,
-      "count": 333,
+      "count": 463,
       "max": [
-        0.7245969772338867,
-        0.9984173774719238
+        0.9230599403381348,
+        0.8331234455108643
       ],
       "min": [
-        0.0016572469612583518,
-        0.0016099809436127543
+        0.13073262572288513,
+        0.15196257829666138
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 1632,
+      "count": 2355,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "RaynaudL (https://sketchfab.com/fts_ltx)",
+      "author": "whewnewacc (https://sketchfab.com/whewnewacc)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/bed-lowpoly-remake-944fbd33cd864f9d8b7a135d8831bbaa",
-      "title": "Bed - lowpoly remake"
+      "source": "https://sketchfab.com/3d-models/single-bed-blanket-14084f216e834241a7f152cdfa4e5d59",
+      "title": "Single Bed Blanket"
     },
-    "generator": "Sketchfab-14.5.0",
+    "generator": "Sketchfab-12.66.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 6528,
+      "byteLength": 9420,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 2664,
-      "byteOffset": 6528,
+      "byteLength": 7408,
+      "byteOffset": 9420,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 7992,
-      "byteOffset": 9192,
+      "byteLength": 11112,
+      "byteOffset": 16828,
       "byteStride": 12,
-      "name": "floatBufferViews",
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 5328,
-      "byteOffset": 17184,
-      "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 22512,
+      "byteLength": 27940,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/t_combined_baseColor.jpeg"
-    },
-    {
-      "uri": "textures/t_combined_normal.png"
+      "uri": "textures/Blanket1_baseColor.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "t_combined",
-      "normalTexture": {
-        "index": 1
-      },
+      "name": "Blanket1",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
         },
-        "metallicFactor": 0.0
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.494573982314618
       }
     }
   ],
   "meshes": [
     {
-      "name": "t_combined-material",
+      "name": "polySurface59_Blanket1_0",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
           "indices": 4,
           "material": 0,
@@ -190,35 +174,65 @@
       "children": [
         2
       ],
-      "name": "Collada visual scene group"
-    },
-    {
-      "children": [
-        3
-      ],
       "matrix": [
         1.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
         0.0,
         1.0,
         0.0,
-        -1.150234,
-        0.2243345,
-        1.824895,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         1.0
       ],
-      "name": "t_lp"
+      "name": "c12d02a835634fd983ddbee5636f3fdd.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Fin"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        2.9785811019801515e-17,
+        0.0,
+        0.13414336740970612,
+        0.0,
+        0.0,
+        0.06530790030956268,
+        0.0,
+        0.0,
+        -0.06177637726068497,
+        0.0,
+        1.3717111282548481e-17,
+        0.0,
+        0.16333602368831635,
+        -4.62565803527832,
+        -81.897705078125,
+        1.0
+      ],
+      "name": "polySurface59"
     },
     {
       "mesh": 0,
-      "name": "t_combined-material"
+      "name": "polySurface59_Blanket1_0"
     }
   ],
   "samplers": [
@@ -242,10 +256,6 @@
     {
       "sampler": 0,
       "source": 0
-    },
-    {
-      "sampler": 0,
-      "source": 1
     }
   ]
 }
