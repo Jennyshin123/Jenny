@@ -1,0 +1,11 @@
+Model Information:
+* title:	Toon_bed
+* source:	https://sketchfab.com/3d-models/toon-bed-8a3e81a0f86547429256c17e177b3fdd
+* author:	faroface (https://sketchfab.com/faroface)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Toon_bed" (https://sketchfab.com/3d-models/toon-bed-8a3e81a0f86547429256c17e177b3fdd) by faroface (https://sketchfab.com/faroface) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
